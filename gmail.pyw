@@ -23,9 +23,9 @@ def __gmailSend__(credentials = {
     # GMAIL
     'username': 'your email', 
     # GMAIL PASSWORD
-    'password': '[password from email]', 
+    'password': 'password from email', 
     # GMAIL DESTINATION
-    'destination': '[your email]'}):
+    'destination': 'your email'}):
 
     # Read log
     f = open('log.txt', 'r')
