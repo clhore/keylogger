@@ -1,5 +1,7 @@
 # keylogger
 
+  The keyloger creates a log.txt file that records all keystrokes, and after 1800 seconds it sends that document to the provided gmail
+
 # Compiled in WINDOWS
   Download and extract the files from the `keylogger.zip`, and run the following command:
   
